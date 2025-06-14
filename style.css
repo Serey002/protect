@@ -1,0 +1,41 @@
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+img{
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #17b1f9;
+
+}
+table{
+    color: white;
+    width: 50%;
+    background: #4d8081;
+}
+td{
+    text-align: center;
+}
+tr th{
+    background: #17b1f9;
+}
+#Id{
+    background: #f65454;
+}
+/* th:nth-child(1){
+    background: #ee2626;
+} */
+tr:hover{
+    background: #ece81f;
+    color: black;
+    height: 40px;
+}
+td:hover{
+    background: #ee4337;
+    width: 25%;
+}
